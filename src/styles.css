@@ -1,0 +1,157 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  padding : 0px;
+}
+
+.navigation-bar {
+  padding : 0px 17%;
+}
+
+.navbar {
+  width : 100%;
+  background-color : #ffffff;
+}
+
+.navbar-brand {
+  font-size : 30px;
+  font-weight : bold;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+}
+
+.navbar-brand>img {
+  height : 78px;
+  width : 78px;
+}
+
+.navbar-nav {
+  padding : 0px 30px;
+}
+
+.nav-link {
+  font-size : 18px;
+  color : #68b11c
+}
+
+.nav-link:hover {
+  font-weight : bold; 
+  color : #000000;
+}
+
+.navbar-nav a {
+  text-decoration : none;
+}
+
+.shopping-cart {
+  height : 40px;
+}
+
+.cart>span{
+  padding : 7px;
+  border : 1px #68b11c solid;
+  border-radius : 100%;
+  background-color : #68b11c;
+  color : #ffffff;
+  font-weight : bold;
+}
+
+.account>span {
+  color : #68b11c;
+  font-size : 18px;
+  font-weight : bold;
+}
+
+.user-pic {
+  height : 50px;
+  margin : 0px 5px 0px 25px;
+}
+
+.cover {
+  height : 100vh;
+  padding : 10% 17%;
+  position :relative;
+  background-image : url("https://static.wixstatic.com/media/272cf7_a9b01c08b1204241b557e54afdd43fcb~mv2.png/v1/fill/w_1558,h_1001,al_t,q_90,usm_0.66_1.00_0.01,enc_auto/272cf7_a9b01c08b1204241b557e54afdd43fcb~mv2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.pitch {
+  font-size : 60px;
+  font-weight : bold;
+  color : #ffffff;
+  text-align : left;
+}
+
+.pitch2 {
+  padding-top : 30px;
+  font-size : 20px;
+  font-weight : bold;
+  color : #ffffff;
+  text-align : left;
+}
+
+.btn-frame {
+  text-align : left;
+}
+
+.btn {
+  margin : 20px 0px;
+  padding : 6px 25px;
+  background-color : #4fa6e0;
+  border-color : #4fa6e0;
+  border-radius : 17px;
+  font-weight : bold;
+}
+
+.btn:hover {
+  border-color : #4fabf1;
+  background-color : #4fabf1;
+}
+
+.cover>img{
+  position : absolute;
+  top : 10%;
+  right : 3%;
+}
+
+.title {
+  font-weight : bold;
+  color : #68b11c;
+  font-size : 45px;
+}
+
+.subtitle {
+  color : #68b11c;
+}
+
+.row {
+  margin : 25px 20%;
+}
+
+.card {
+  width : 300px;
+  height : 300px;
+  box-shadow : 0 0 10px #707070;
+}
+
+.card-title {
+  font-size : 25px;
+  font-weight : 550;
+}
+
+.card-img {
+  height : 85px;
+  width : 85px;
+  margin : 15px;
+}
+
+.card:hover {
+  transform : scale(1.1);
+  transition : all 0.4s ease-in-out 0s;
+}
